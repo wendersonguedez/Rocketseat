@@ -8,10 +8,10 @@ Espaço entre os elementos
 ```css
 div {
     /* shorthand */
-    margin: 12px 16px 10px 4px;
-    margin: 12px 16px 0px;
-    margin: 8px 16px;
-    margin: 8px;
+    margin: 12px 16px 10px 4px; /* (top, right, bottom, left) */
+    margin: 12px 16px 0px; /* (top, right + left, bottom) */
+    margin: 8px 16px; /* (top + bottom, right + left) */
+    margin: 8px; /* (all) */
 }
 ```
 
