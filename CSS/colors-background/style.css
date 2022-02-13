@@ -10,19 +10,19 @@ header {
     Definindo uma cor para o fundo da página. 
     background-color: rgb(55, 100, 50);
 
-    Inserindo uma imagem na página 
+    Inserindo uma imagem na página. 
     background-image: url("https://source.unsplash.com/random");
     
-    Removendo a repetição da imagem de fundo 
+    Removendo a repetição da imagem de fundo.
     background-repeat: no-repeat; 
     
     background-repeat: repeat-y;  Imagem de fundo irá se repetir no eixo vertical
     background-repeat: repeat-x; Imagem de fundo irá se repetir no eixo horizontal 
 
-    Posicionando uma imagem, podendo alterar seu eixo vertical e horizontal 
+    Posicionando uma imagem, podendo alterar seu eixo vertical e horizontal. 
     background-position: center;
 
-    Definindo o tamanho da imagem 
+    Definindo o tamanho da imagem.
     background-size: contain; redimensiona a imagem para ocupar o espaço inteiro do container 
     
     background-size: cover; redimensiona a imagem para cobrir todo o espaço do container
