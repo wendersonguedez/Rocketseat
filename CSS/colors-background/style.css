@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+/* 
+header {
+    height: 100px;
+    border: 7px dashed red;
+    padding: 16px;
+
+    Definindo uma cor para o fundo da página. 
+    background-color: rgb(55, 100, 50);
+
+    Inserindo uma imagem na página 
+    background-image: url("https://source.unsplash.com/random");
+    
+    Removendo a repetição da imagem de fundo 
+    background-repeat: no-repeat; 
+    
+    background-repeat: repeat-y;  Imagem de fundo irá se repetir no eixo vertical
+    background-repeat: repeat-x; Imagem de fundo irá se repetir no eixo horizontal 
+
+    Posicionando uma imagem, podendo alterar seu eixo vertical e horizontal 
+    background-position: center;
+
+    Definindo o tamanho da imagem 
+    background-size: contain; redimensiona a imagem para ocupar o espaço inteiro do container 
+    
+    background-size: cover; redimensiona a imagem para cobrir todo o espaço do container
+    background-size: 50%; utilizando porcentagem para alterar o tamanho da imagem
+    background-size: 3em; utilizando em para alterar o tamanho da imagem 
+
+    background-origin define o ponto de origem da imagem. 
+    border-box faz com que a origem da imagem seja à partir da borda do elemento.
+    background-origin: border-box;
+
+    Define a origem da imagem à partir do conteudo do seu elemento.
+    background-origin: content-box; 
+
+    Valor default do elemento. A imagem é posicionada relativamente ao espaçamento do elemento 
+    background-origin: padding-box;
+
+    background-clip define até onde o fundo (cor ou imagem) deve se estender dentro de um elemento. 
+    border-box define que o fundo se estenda até a borda do elemento 
+    background-clip: border-box; 
+    
+    padding-box define que o fundo se estenda até a borda externa do elemento 
+    background-clip: padding-box; 
+    
+    content-box define que o fundo se estenda até a borda da caixa do elemento  
+    background-clip: content-box; 
+}
+*/
+
+main {
+    color: purple;
+    padding: 8px;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url("https://source.unsplash.com/random");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+
+    /* ao rolar a página, a imagem de fundo fica fixa */
+    background-attachment: fixed;
+
+    /* shorthand com comandos acima */
+    background: rgb(55, 100, 50) url("https://source.unsplash.com/random")
+    no-repeat right top / 50px border-box content-box fixed;
+
+    /* cores gradientes para o background 
+    background: linear-gradient(270deg, red, yellow, green);
+
+    cores gradientes radial para o background. o gradiente é formado por circulos. pode ser usado rgb ou rgba
+    background: radial-gradient(red, yellow); */
+
+    /* multiplos valores para o background */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2)), 
+    url("https://source.unsplash.com/random") no-repeat right top / 50px border-box content-box fixed;
+}
