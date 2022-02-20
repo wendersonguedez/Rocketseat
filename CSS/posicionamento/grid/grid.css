@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: grid;
+
+    /* definindo as areas do grid. cada "" é referente a uma linha 
+    e dentro delas definimos a quantidade de colunas para cada linha. */
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+
+    /* definindo a dimensão das linhas */
+    grid-template-rows: 40px 1fr 40px;
+
+    /* definindo a dimensão das colunas */
+    grid-template-columns: 1fr 80px;
+}
+
+header {
+    /* definindo para qual area do grid esse elemento faz referencia. */
+    grid-area: header;
+    background-color: green;
+}
+
+main {
+    grid-area: main;
+    background-color: red;
+}
+
+aside {
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+}
