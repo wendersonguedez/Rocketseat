@@ -228,7 +228,7 @@ p {
                 2px 2px 1px green; /* offset-x | offset-y | blur-radius | color */
 }
 ```
-## Referência
+# Referência
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 
 --------------------------------------------------------------------
